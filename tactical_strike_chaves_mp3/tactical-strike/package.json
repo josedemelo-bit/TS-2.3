@@ -1,0 +1,16 @@
+{
+  "name": "tactical-strike-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prot\u00f3tipo FPS t\u00e1tico 3D para navegador com bots e sincroniza\u00e7\u00e3o multiplayer b\u00e1sica",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:map": "node tools/check_map.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "three": "^0.160.0"
+  }
+}
